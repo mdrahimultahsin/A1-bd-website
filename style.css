@@ -162,6 +162,10 @@ header nav .logo h2 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  transition: .5s ease-in-out;
+}
+.pillar-card:hover {
+  transform: translateY(-8px);
 }
 .pillar-card-container .pillar-card .card-img {
   width: 64px;
@@ -191,6 +195,10 @@ header nav .logo h2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  transition: .5s ease-in-out;
+}
+.vision-card:hover {
+  transform: translateY(-8px);
 }
 .vision-card1 {
   background: rgba(84, 144, 245, 0.2);
