@@ -462,7 +462,8 @@ header nav .logo h2 {
 #subscribe .subsribe-input button {
   position: absolute;
   right: 0;
-  padding: 15px 30px;
+  bottom: 0;
+  padding: 17px 30px;
   background: #006a50;
   color: #fff;
   font-size: 18px;
@@ -470,6 +471,7 @@ header nav .logo h2 {
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  border: none;
 }
 #subscribe .subsribe-input button:hover {
   background: #044333;
